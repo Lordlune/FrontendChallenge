@@ -1,0 +1,46 @@
+.card {
+    &:hover{
+        .wrapper{
+            box-shadow: none;
+        }
+        .span{
+            box-shadow: none;
+        }
+    }
+}
+
+h3{
+    color: #6c707c;
+}
+
+.arrow-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.arrow{
+    font-size: .7em;
+}
+.arrow-final{
+    padding-bottom: 5.5em;
+}
+
+.action-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.champions{
+    display: grid;
+    height: 100vh;
+}
+
+.champion{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 11em;
+}
